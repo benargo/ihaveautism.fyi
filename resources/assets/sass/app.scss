@@ -1,9 +1,44 @@
 
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url('https://fonts.googleapis.com/css?family=Chelsea+Market');
 
 // Variables
 @import "variables";
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+html, body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    height: 100%;
+}
+nav.navbar {
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6, h1.title {
+    font-family: 'Chelsea Market', cursive;
+    margin: 30px auto;
+    text-align: center;
+}
+h1.title {
+    font-size: 100px;
+}
+h2 {
+    font-size: 70px;
+}
+p.subtitle {
+    font-size: 34px;
+}
+p {
+    text-align: center;
+}
+footer {
+    border-top: solid 1px #333;
+    margin: 30px auto auto;
+    padding: 30px;
+}
+footer p {
+    font-size: 18px;
+}
