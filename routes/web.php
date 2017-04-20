@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/new/{lang?}', function ($lang = null) {
+    //
+});
+
+Route::get('/duplicate/{id}', function ($id) {
+    //
+});
+
+Route::get('/{locale}', function ($locale) {
+    App::setLocale($locale);
+
+    return view('index');
+});

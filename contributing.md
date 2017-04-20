@@ -9,9 +9,10 @@ Static sentences, such as those which power navigation, headings and other fixed
             /en
                 /[static.php](https://github.com/benargo/ihaveautism.fyi/blob/master/resources/lang/en/static.php)
 
-Default sentences, which can be customised by individuals can be found in:
+<!-- The following is in case the app is expanded by providing functionality to customise the text -->
+<!-- Default sentences, which can be customised by individuals can be found in:
 
     /resources
         /lang
             /en
-                /[defaults.php](https://github.com/benargo/ihaveautism.fyi/blob/master/resources/lang/en/defaults.php)
+                /[defaults.php](https://github.com/benargo/ihaveautism.fyi/blob/master/resources/lang/en/defaults.php) -->
